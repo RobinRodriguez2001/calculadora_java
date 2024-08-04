@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="0" green="cc" red="33" type="rgb"/>
+    </Property>
+    <Property name="iconifiable" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="true"/>
+    <Property name="title" type="java.lang.String" value="BitacoraCalculadora.txt "/>
+    <Property name="autoscrolls" type="boolean" value="true"/>
+    <Property name="selected" type="boolean" value="true"/>
+    <Property name="visible" type="boolean" value="false"/>
+  </Properties>
+  <AccessibilityProperties>
+    <Property name="AccessibleContext.accessibleDescription" type="java.lang.String" value=""/>
+    <Property name="AccessibleContext.accessibleParent" type="javax.accessibility.Accessible" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="Form"/>
+    </Property>
+  </AccessibilityProperties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="329" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="367" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="txt_manual">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Operaciones B&#xe1;sicas&#xa;Sumar:&#xa;&#xa;Introduce el primer n&#xfa;mero.&#xa;Presiona el bot&#xf3;n +.&#xa;Introduce el segundo n&#xfa;mero.&#xa;Presiona el bot&#xf3;n = para ver el resultado.&#xa;Restar:&#xa;&#xa;Introduce el primer n&#xfa;mero.&#xa;Presiona el bot&#xf3;n -.&#xa;Introduce el segundo n&#xfa;mero.&#xa;Presiona el bot&#xf3;n = para ver el resultado.&#xa;Multiplicar:&#xa;&#xa;Introduce el primer n&#xfa;mero.&#xa;Presiona el bot&#xf3;n *.&#xa;Introduce el segundo n&#xfa;mero.&#xa;Presiona el bot&#xf3;n = para ver el resultado.&#xa;Dividir:&#xa;&#xa;Introduce el primer n&#xfa;mero.&#xa;Presiona el bot&#xf3;n /.&#xa;Introduce el segundo n&#xfa;mero.&#xa;Presiona el bot&#xf3;n = para ver el resultado.&#xa;3. Historial de Operaciones&#xa;Ver Historial:&#xa;Haz clic en el bot&#xf3;n &quot;Historial&quot; en la interfaz de la &#xa;calculadora.&#xa;Aparecer&#xe1; una ventana con  las operaciones &#xa;realizadas recientemente.&#xa;4. Reiniciar la Calculadora&#xa;Paso 1: Presiona en donde dice Opciones el cual&#xa;te desplegara dos opciones (NUEVO y Historial)&#xa;selecciona NUEVO para borrar la pantalla y reiniciar&#xa;la calculadora.&#xa;5. Cerrar la Aplicaci&#xf3;n&#xa;Paso 1: Haz clic en la &quot;X&quot; en la esquina superior &#xa;derecha  de la ventana de la calculadora.&#xa;Paso 2: La aplicaci&#xf3;n se cerrar&#xe1;."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
